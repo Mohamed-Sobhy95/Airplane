@@ -1,13 +1,6 @@
-
-//#include <GL/glut.h>
-
-
 #include<stdio.h>
-#include<math.h>
-#include<cmath>
-# define M_PI 3.142
 #include<GL/freeglut.h>
-GLfloat Xpos = 0, roadbackward = 0, Ypos = 20, d = 0, e = 0;
+GLfloat Xpos = 0, roadbackward = 0, Ypos = 20;
 void runway();
 void keys(int key, int x, int y);
 void update(int value)
